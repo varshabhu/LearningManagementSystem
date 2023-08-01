@@ -1,0 +1,43 @@
+/* AddUserForm.css */
+.add-user-form {
+    width: 400px;
+    /* margin: 0 auto; */
+     transform:translateX(-300px);
+
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-user-form h2 {
+    margin-bottom: 10px;
+  }
+  
+  .add-user-form form {
+    margin-left:50px;
+    
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-user-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-user-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-user-form button:hover {
+    background-color: #0056b3;
+  }
+  

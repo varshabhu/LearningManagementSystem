@@ -1,0 +1,54 @@
+.form{
+  padding:150px;
+    height:745px;
+   width:900px;
+    background-size: cover;
+}
+.login1{
+    
+  background-image:url("https://res.cloudinary.com/dv3xtovhk/image/upload/v1688969665/img1_ftikqb.jpg");
+    background-size: cover;
+    margin: 0;
+    
+  }
+
+
+.login-form {
+    width: 350px;
+    height:350px;
+    margin-left:500px;
+      
+     padding: 50px; 
+    background-color:bisque;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-form div {
+    margin-bottom: 10px;
+  }
+  
+  .login-form input[type='text'],
+  .login-form input[type='email'],
+  .login-form input[type='password'] {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .login-form button[type='submit'] {
+    width: 100%;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login-form button[type='submit']:hover {
+    background-color:cadetblue;
+  }
+  

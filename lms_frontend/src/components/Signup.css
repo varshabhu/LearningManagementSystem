@@ -1,0 +1,136 @@
+.logmain{
+  padding: 150px;
+  background-image:url("https://res.cloudinary.com/dv3xtovhk/image/upload/v1688969665/img1_ftikqb.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  margin: 0;
+  background-size: cover;
+  overflow: hidden;
+}
+.log{
+color: black;
+padding-left: 50px;
+text-align: center;
+}
+.login-form {
+  border-radius: 25px;
+  transform:translateX(450px);
+  max-width: 400px;
+  margin-right: 90px auto;
+  margin-top: 10px;
+  padding: 50px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  height:100vh;
+}
+
+.login-form div {
+  margin-bottom: 10px;
+}
+
+.login-form input[type='text'],
+.login-form input[type='email'],
+.login-form input[type='password']
+{
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 15px;
+  font-size: 16px;
+}
+.sl{
+  color: #7f7f7f;
+}
+select{
+  width: 108%;
+  border-radius: 50px;
+  padding: 15px;
+  font-size: 16px;
+}
+.login-form button[type='submit'] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 25px;
+  background-color: #0066ff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-form button[type='submit']:hover {
+  background-color: #6094f4;
+}
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }  
+.slink{
+text-decoration: none;
+}
+
+.social-login {
+display: flex;
+justify-content:center;
+align-items: center;
+
+button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 10rem;
+  margin:200px;
+  padding: .625rem;
+  text-transform: uppercase;
+  letter-spacing: .7px;
+  cursor: pointer;
+  transition:  .3s ease-in;
+  
+  &:hover {
+    background-color: rgba(#fff, .3);
+  }
+  
+  i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 2.25rem;
+    height: 2.25rem;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    padding-left: 2px;
+    text-align: center;
+    margin-right: .25rem;
+    
+    &.fa-facebook-f {
+      color: #000000;
+    }
+    
+     
+    
+    &.fa-google {
+      color: #000000;
+    }
+  }
+}
+}
+
+.separator {
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+ span {
+   display:block;
+   width: 100%;
+   height: 1px;
+   background: #ddd;
+   margin: 1.5rem;
+  }
+}

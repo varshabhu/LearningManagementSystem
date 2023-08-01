@@ -1,0 +1,22 @@
+.sidebarStyle{
+  
+    background-Color:rgb(84,90,167);
+    padding: 20px;
+    width: 200px;
+    height:800px;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    bottom: 0,
+  };
+  .textstyle{
+    height:800px;
+  }
+  .ahome{
+    background-image:url('https://img.freepik.com/free-photo/light-blue-frame-with-office-supplies_23-2148224261.jpg?w=1060&t=st=1690044916~exp=1690045516~hmac=300ffe36acf466cb85cbade709d361de848986dc8223309d44e25a1dd69b135c');
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:200%;
+
+  }

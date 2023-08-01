@@ -1,0 +1,85 @@
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width:100%;
+   background-color:rgb(84,90,167); 
+}
+
+.navbar-brand {
+  transform:translateX(-200px);
+  font-size: 20px;
+  font-weight: bold;
+  color:white;
+}
+
+.search-form1 {
+  display: flex;
+  align-items: center;
+  background-color:blue;
+}
+
+.search-input1 {
+  padding: 8px;
+  transform:translateX(-500px);
+  width:500px;
+  border: none;
+  border-radius: 4px;
+}
+
+.search-button1 {
+
+  transform:translateX(-475px);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-button1 i {
+  /* Assuming you are using Font Awesome for the search icon */
+  font-size: 16px;
+}
+.it{
+  transform:translateX(50px);
+}
+
+.search-form1 button[type="submit"]{
+  transform:translateX(-550px);
+  width:50px;
+  height:50px;
+  border-radius:25px;
+  background-color:transparent;
+}
+
+
+.ding1 button[type="submit"]
+{
+  width: 50%;
+  transform:translateX(200px);
+  transform:translateY(30px);
+  padding: 10px;
+  border: 1px solid blue;
+  border-Radius: 50px;
+  background-color: rgb(90, 16, 103);
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.ding3 button[type="submit"]
+{
+  width: 50%;
+  margin-left:50px;
+  margin-top:20px;
+  padding: 10px;
+  border: 1px solid blue;
+  border-Radius: 50px;
+  background-color: rgb(90, 16, 103);
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  
+}

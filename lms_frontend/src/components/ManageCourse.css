@@ -1,0 +1,41 @@
+/* AddUserForm.css */
+.course-form5 {
+  width: 500px;
+  height:300px;
+  transform:translateX(500px);
+  margin-top: -480px;
+  border: 1px solid #ccc;
+  background-color:beige;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.course-form5 h2 {
+  margin-bottom: 10px;
+}
+
+.course-form5 form {
+  margin-left:50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.course-form5 input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.course-form5 button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.course-form5 button:hover {
+  background-color: #0056b3;
+}

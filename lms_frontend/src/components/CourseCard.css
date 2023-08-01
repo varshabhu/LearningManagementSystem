@@ -1,0 +1,44 @@
+/* CourseCard.css */
+
+.course-card3 {
+  /* Set a specific width for each card */
+  width: 250px;
+  /* Add spacing between cards */
+  margin-right: 20px;
+  margin-top:200px;
+  /* Display the cards horizontally */
+  display: inline-block;
+}
+
+.ourcourse {
+  /* Optional: Add some spacing around the cards */
+  margin-bottom: 20px;
+}
+
+.course-card {
+  /* Add styling for the card content (title, description, etc.) */
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.details {
+  /* Optional: Add styling for the course details section (duration, price) */
+  margin-top: 10px;
+}
+
+.delete-button1 {
+  /* Optional: Add styling for the delete button */
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button1:hover {
+  background-color: #c0392b;
+}

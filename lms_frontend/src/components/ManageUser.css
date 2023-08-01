@@ -1,0 +1,130 @@
+
+.user-management-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  .user{
+    transform:translateX(300px);
+    margin-top:-250px;
+  }
+  
+  .gapping1{
+    padding:30px;
+  }
+  .gapping2{
+    padding:10px;
+  }
+  .gapping3{
+    padding:20px;
+  }
+  .gapping4{
+    padding:10px;
+  }
+
+  .user-management-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .user-management-container form {
+    
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-management-container input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .user-management-container button {
+    padding: 8px 15px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .user-management-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .user-management-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-management-container li {
+    margin-bottom: 10px;
+  }
+  
+  .user-management-container li button {
+    margin-right: 5px;
+    background-color: #dc3545;
+  }
+  
+  .user-management-container li button:hover {
+    background-color: #c82333;
+  }
+  
+
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width:100%;
+    background-color:aliceblue;
+  }
+  
+  .navbar-brand {
+    transform:translateX(-200px);
+    font-size: 20px;
+    font-weight: bold;
+    color:blue;
+  }
+  
+  .search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 8px;
+    transform:translateX(-500px);
+    width:500px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .search-button {
+  
+    transform:translateX(-475px);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-button i {
+    /* Assuming you are using Font Awesome for the search icon */
+    font-size: 16px;
+  }
+  .it{
+    transform:translateX(50px);
+  }
+  
+  .search-form button[type="submit"]{
+    transform:translateX(-550px);
+    width:50px;
+    height:50px;
+    border-radius:25px;
+    background-color:transparent;
+  }
+  
+  
+  

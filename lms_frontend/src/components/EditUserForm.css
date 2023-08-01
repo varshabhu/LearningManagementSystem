@@ -1,0 +1,48 @@
+/* EditUserForm.css */
+.edit-user-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-user-form h2 {
+    margin-bottom: 10px;
+  }
+  
+  .edit-user-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-user-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .edit-user-form button {
+    padding: 8px 15px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-user-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .edit-user-form button:last-child {
+    background-color: #dc3545;
+  }
+  
+  .edit-user-form button:last-child:hover {
+    background-color: #c82333;
+  }
+  
